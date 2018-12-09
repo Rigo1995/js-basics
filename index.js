@@ -37,3 +37,21 @@ console.log(person);
 let selectColors = ["red", "blue"];
 selectColors[2] = 1;
 console.log(selectColors.length);
+
+//(3)functions
+//*the logic happens here
+//*performs a task
+//*calculates a value
+
+//performing a task
+function greet(name, lastName) {
+    console.log("Hello " + name + "" + lastName);
+}
+
+//calculating a value 
+function square(number) {
+    return number * number;
+}
+//greet("Rigo ", "Ramirez-Pascual ");
+
+console.log(square(2));
